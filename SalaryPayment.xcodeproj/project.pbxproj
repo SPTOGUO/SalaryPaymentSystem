@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5B014F1E72295D002B6A83 /* ChangeDiectTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B014E1E72295D002B6A83 /* ChangeDiectTransaction.swift */; };
+		AD5B01511E72298E002B6A83 /* ChangeMailTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B01501E72298E002B6A83 /* ChangeMailTransaction.swift */; };
+		AD5B01541E722DD8002B6A83 /* ChangeAffiliationTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B01531E722DD8002B6A83 /* ChangeAffiliationTransaction.swift */; };
+		AD5B01561E72303D002B6A83 /* ChangeMemberTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B01551E72303D002B6A83 /* ChangeMemberTransaction.swift */; };
+		AD5B01581E7231AB002B6A83 /* ChangeUnffiliatedTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B01571E7231AB002B6A83 /* ChangeUnffiliatedTransaction.swift */; };
+		AD5C0F991E67A4D800ABA70A /* DeleteEmployeeTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0F981E67A4D800ABA70A /* DeleteEmployeeTransaction.swift */; };
+		AD5C0F9C1E67A89100ABA70A /* TimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0F9B1E67A89100ABA70A /* TimeCard.swift */; };
+		AD5C0F9E1E67A98B00ABA70A /* TimeCardTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0F9D1E67A98B00ABA70A /* TimeCardTransaction.swift */; };
+		AD7D9C231E76248A0027D9AB /* PaydayTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C221E76248A0027D9AB /* PaydayTransaction.swift */; };
+		AD7D9C351E766F140027D9AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C251E766F140027D9AB /* Constants.swift */; };
+		AD7D9C361E766F140027D9AB /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C261E766F140027D9AB /* Date+Bundle.swift */; };
+		AD7D9C371E766F140027D9AB /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C271E766F140027D9AB /* Date+Comparators.swift */; };
+		AD7D9C381E766F140027D9AB /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C281E766F140027D9AB /* Date+Components.swift */; };
+		AD7D9C391E766F140027D9AB /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C291E766F140027D9AB /* Date+Format.swift */; };
+		AD7D9C3A1E766F140027D9AB /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C2A1E766F140027D9AB /* Date+Inits.swift */; };
+		AD7D9C3B1E766F140027D9AB /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C2B1E766F140027D9AB /* Date+Manipulations.swift */; };
+		AD7D9C3C1E766F140027D9AB /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C2C1E766F140027D9AB /* Date+TimeAgo.swift */; };
+		AD7D9C3D1E766F140027D9AB /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD7D9C2D1E766F140027D9AB /* DateTools.bundle */; };
+		AD7D9C3E1E766F140027D9AB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C2E1E766F140027D9AB /* Enums.swift */; };
+		AD7D9C3F1E766F140027D9AB /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C2F1E766F140027D9AB /* Integer+DateTools.swift */; };
+		AD7D9C401E766F140027D9AB /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C301E766F140027D9AB /* TimeChunk.swift */; };
+		AD7D9C411E766F140027D9AB /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C311E766F140027D9AB /* TimePeriod.swift */; };
+		AD7D9C421E766F140027D9AB /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C321E766F140027D9AB /* TimePeriodChain.swift */; };
+		AD7D9C431E766F140027D9AB /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C331E766F140027D9AB /* TimePeriodCollection.swift */; };
+		AD7D9C441E766F140027D9AB /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D9C341E766F140027D9AB /* TimePeriodGroup.swift */; };
+		AD98B7BB1E6CE46800D29C9C /* ServiceChargeTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98B7BA1E6CE46800D29C9C /* ServiceChargeTransaction.swift */; };
+		AD98B7BD1E6CE70000D29C9C /* Affiliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98B7BC1E6CE70000D29C9C /* Affiliation.swift */; };
+		AD98B7BF1E6CF1C000D29C9C /* ServiceCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98B7BE1E6CF1C000D29C9C /* ServiceCharge.swift */; };
+		ADA3F4A51E77739500E9E075 /* Paycheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3F4A41E77739500E9E075 /* Paycheck.swift */; };
+		ADA5E4611E6F89130079EDE5 /* ChangeEmpolyeeTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4601E6F89130079EDE5 /* ChangeEmpolyeeTransaction.swift */; };
+		ADA5E4631E6F8AA70079EDE5 /* ChangeNameTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4621E6F8AA70079EDE5 /* ChangeNameTransaction.swift */; };
+		ADA5E4661E6F8FD80079EDE5 /* ChangeClassificationTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4651E6F8FD80079EDE5 /* ChangeClassificationTransaction.swift */; };
+		ADA5E4681E6F904F0079EDE5 /* ChangeHourlyTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4671E6F904F0079EDE5 /* ChangeHourlyTransaction.swift */; };
+		ADA5E46A1E70D7910079EDE5 /* ChangeAdressTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4691E70D7910079EDE5 /* ChangeAdressTransaction.swift */; };
+		ADA5E46C1E70DC140079EDE5 /* ChangeSalaryTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E46B1E70DC140079EDE5 /* ChangeSalaryTransaction.swift */; };
+		ADA5E46E1E70DFAC0079EDE5 /* ChangeCommissonTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E46D1E70DFAC0079EDE5 /* ChangeCommissonTransaction.swift */; };
+		ADA5E4711E70E3780079EDE5 /* ChangePaymentMethodTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4701E70E3780079EDE5 /* ChangePaymentMethodTransaction.swift */; };
+		ADA5E4731E70E49D0079EDE5 /* ChangeHoldTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5E4721E70E49D0079EDE5 /* ChangeHoldTransaction.swift */; };
+		ADCF57891E68EEFD00A6ED6F /* SalaryReceiptTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF57881E68EEFD00A6ED6F /* SalaryReceiptTransaction.swift */; };
+		ADCF578B1E68F50400A6ED6F /* SalaryReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF578A1E68F50400A6ED6F /* SalaryReceipt.swift */; };
+		ADDA111A1E63B4350006065A /* SalaryPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA11191E63B4350006065A /* SalaryPaymentTests.swift */; };
+		ADF9F4BB1E65099B00CA9568 /* AddEmployeeTransation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4A91E65099B00CA9568 /* AddEmployeeTransation.swift */; };
+		ADF9F4BC1E65099B00CA9568 /* AddSalariedEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4AA1E65099B00CA9568 /* AddSalariedEmployee.swift */; };
+		ADF9F4BD1E65099B00CA9568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4AB1E65099B00CA9568 /* AppDelegate.swift */; };
+		ADF9F4BE1E65099B00CA9568 /* PayrollDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4AE1E65099B00CA9568 /* PayrollDatabase.swift */; };
+		ADF9F4BF1E65099B00CA9568 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4AF1E65099B00CA9568 /* Employee.swift */; };
+		ADF9F4C01E65099B00CA9568 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF9F4B01E65099B00CA9568 /* Info.plist */; };
+		ADF9F4C11E65099B00CA9568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF9F4B11E65099B00CA9568 /* LaunchScreen.storyboard */; };
+		ADF9F4C21E65099B00CA9568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF9F4B21E65099B00CA9568 /* Main.storyboard */; };
+		ADF9F4C31E65099B00CA9568 /* PaymentClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4B41E65099B00CA9568 /* PaymentClassification.swift */; };
+		ADF9F4C41E65099B00CA9568 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4B61E65099B00CA9568 /* PaymentMethod.swift */; };
+		ADF9F4C51E65099B00CA9568 /* PaymentSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4B81E65099B00CA9568 /* PaymentSchedule.swift */; };
+		ADF9F4C61E65099B00CA9568 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4B91E65099B00CA9568 /* Transaction.swift */; };
+		ADF9F4C71E65099B00CA9568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4BA1E65099B00CA9568 /* ViewController.swift */; };
+		ADF9F4C91E650A1F00CA9568 /* MonthlySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4C81E650A1F00CA9568 /* MonthlySchedule.swift */; };
+		ADF9F4CB1E650BE100CA9568 /* AddHourlyEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4CA1E650BE100CA9568 /* AddHourlyEmployee.swift */; };
+		ADF9F4CD1E650D2700CA9568 /* SalariedClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4CC1E650D2700CA9568 /* SalariedClassification.swift */; };
+		ADF9F4CF1E650D4D00CA9568 /* HourlyClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4CE1E650D4D00CA9568 /* HourlyClassification.swift */; };
+		ADF9F4D11E650DA700CA9568 /* WeeklySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F4D01E650DA700CA9568 /* WeeklySchedule.swift */; };
+		ADF9F50B1E664B5800CA9568 /* AddCommissionedEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F50A1E664B5800CA9568 /* AddCommissionedEmployee.swift */; };
+		ADF9F50D1E664D0700CA9568 /* BiweeklySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F50C1E664D0700CA9568 /* BiweeklySchedule.swift */; };
+		ADF9F50F1E664D5300CA9568 /* CommissionedClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9F50E1E664D5300CA9568 /* CommissionedClassification.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADDA11161E63B4350006065A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDA10F91E63B4340006065A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDA11001E63B4340006065A;
+			remoteInfo = SalaryPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5B014E1E72295D002B6A83 /* ChangeDiectTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDiectTransaction.swift; sourceTree = "<group>"; };
+		AD5B01501E72298E002B6A83 /* ChangeMailTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeMailTransaction.swift; sourceTree = "<group>"; };
+		AD5B01531E722DD8002B6A83 /* ChangeAffiliationTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeAffiliationTransaction.swift; sourceTree = "<group>"; };
+		AD5B01551E72303D002B6A83 /* ChangeMemberTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeMemberTransaction.swift; sourceTree = "<group>"; };
+		AD5B01571E7231AB002B6A83 /* ChangeUnffiliatedTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUnffiliatedTransaction.swift; sourceTree = "<group>"; };
+		AD5C0F981E67A4D800ABA70A /* DeleteEmployeeTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteEmployeeTransaction.swift; sourceTree = "<group>"; };
+		AD5C0F9B1E67A89100ABA70A /* TimeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCard.swift; sourceTree = "<group>"; };
+		AD5C0F9D1E67A98B00ABA70A /* TimeCardTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCardTransaction.swift; sourceTree = "<group>"; };
+		AD7D9C221E76248A0027D9AB /* PaydayTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaydayTransaction.swift; sourceTree = "<group>"; };
+		AD7D9C251E766F140027D9AB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD7D9C261E766F140027D9AB /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
+		AD7D9C271E766F140027D9AB /* Date+Comparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Comparators.swift"; sourceTree = "<group>"; };
+		AD7D9C281E766F140027D9AB /* Date+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
+		AD7D9C291E766F140027D9AB /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		AD7D9C2A1E766F140027D9AB /* Date+Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Inits.swift"; sourceTree = "<group>"; };
+		AD7D9C2B1E766F140027D9AB /* Date+Manipulations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Manipulations.swift"; sourceTree = "<group>"; };
+		AD7D9C2C1E766F140027D9AB /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		AD7D9C2D1E766F140027D9AB /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		AD7D9C2E1E766F140027D9AB /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		AD7D9C2F1E766F140027D9AB /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
+		AD7D9C301E766F140027D9AB /* TimeChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChunk.swift; sourceTree = "<group>"; };
+		AD7D9C311E766F140027D9AB /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
+		AD7D9C321E766F140027D9AB /* TimePeriodChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodChain.swift; sourceTree = "<group>"; };
+		AD7D9C331E766F140027D9AB /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
+		AD7D9C341E766F140027D9AB /* TimePeriodGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodGroup.swift; sourceTree = "<group>"; };
+		AD98B7BA1E6CE46800D29C9C /* ServiceChargeTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceChargeTransaction.swift; sourceTree = "<group>"; };
+		AD98B7BC1E6CE70000D29C9C /* Affiliation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Affiliation.swift; sourceTree = "<group>"; };
+		AD98B7BE1E6CF1C000D29C9C /* ServiceCharge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCharge.swift; sourceTree = "<group>"; };
+		ADA3F4A41E77739500E9E075 /* Paycheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paycheck.swift; sourceTree = "<group>"; };
+		ADA5E4601E6F89130079EDE5 /* ChangeEmpolyeeTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeEmpolyeeTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4621E6F8AA70079EDE5 /* ChangeNameTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeNameTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4651E6F8FD80079EDE5 /* ChangeClassificationTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeClassificationTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4671E6F904F0079EDE5 /* ChangeHourlyTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeHourlyTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4691E70D7910079EDE5 /* ChangeAdressTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeAdressTransaction.swift; sourceTree = "<group>"; };
+		ADA5E46B1E70DC140079EDE5 /* ChangeSalaryTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeSalaryTransaction.swift; sourceTree = "<group>"; };
+		ADA5E46D1E70DFAC0079EDE5 /* ChangeCommissonTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCommissonTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4701E70E3780079EDE5 /* ChangePaymentMethodTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePaymentMethodTransaction.swift; sourceTree = "<group>"; };
+		ADA5E4721E70E49D0079EDE5 /* ChangeHoldTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeHoldTransaction.swift; sourceTree = "<group>"; };
+		ADCF57881E68EEFD00A6ED6F /* SalaryReceiptTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryReceiptTransaction.swift; sourceTree = "<group>"; };
+		ADCF578A1E68F50400A6ED6F /* SalaryReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryReceipt.swift; sourceTree = "<group>"; };
+		ADDA11011E63B4340006065A /* SalaryPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDA11151E63B4350006065A /* SalaryPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDA11191E63B4350006065A /* SalaryPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryPaymentTests.swift; sourceTree = "<group>"; };
+		ADDA111B1E63B4350006065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF9F4A91E65099B00CA9568 /* AddEmployeeTransation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployeeTransation.swift; sourceTree = "<group>"; };
+		ADF9F4AA1E65099B00CA9568 /* AddSalariedEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSalariedEmployee.swift; sourceTree = "<group>"; };
+		ADF9F4AB1E65099B00CA9568 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF9F4AE1E65099B00CA9568 /* PayrollDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayrollDatabase.swift; sourceTree = "<group>"; };
+		ADF9F4AF1E65099B00CA9568 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		ADF9F4B01E65099B00CA9568 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF9F4B11E65099B00CA9568 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF9F4B21E65099B00CA9568 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ADF9F4B41E65099B00CA9568 /* PaymentClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentClassification.swift; sourceTree = "<group>"; };
+		ADF9F4B61E65099B00CA9568 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		ADF9F4B81E65099B00CA9568 /* PaymentSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSchedule.swift; sourceTree = "<group>"; };
+		ADF9F4B91E65099B00CA9568 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		ADF9F4BA1E65099B00CA9568 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF9F4C81E650A1F00CA9568 /* MonthlySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlySchedule.swift; sourceTree = "<group>"; };
+		ADF9F4CA1E650BE100CA9568 /* AddHourlyEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHourlyEmployee.swift; sourceTree = "<group>"; };
+		ADF9F4CC1E650D2700CA9568 /* SalariedClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalariedClassification.swift; sourceTree = "<group>"; };
+		ADF9F4CE1E650D4D00CA9568 /* HourlyClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyClassification.swift; sourceTree = "<group>"; };
+		ADF9F4D01E650DA700CA9568 /* WeeklySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklySchedule.swift; sourceTree = "<group>"; };
+		ADF9F50A1E664B5800CA9568 /* AddCommissionedEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommissionedEmployee.swift; sourceTree = "<group>"; };
+		ADF9F50C1E664D0700CA9568 /* BiweeklySchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiweeklySchedule.swift; sourceTree = "<group>"; };
+		ADF9F50E1E664D5300CA9568 /* CommissionedClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommissionedClassification.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADDA10FE1E63B4340006065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDA11121E63B4350006065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5B01521E722DD1002B6A83 /* ChangeAffiliationTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B01531E722DD8002B6A83 /* ChangeAffiliationTransaction.swift */,
+				AD5B01551E72303D002B6A83 /* ChangeMemberTransaction.swift */,
+				AD5B01571E7231AB002B6A83 /* ChangeUnffiliatedTransaction.swift */,
+			);
+			path = ChangeAffiliationTransaction;
+			sourceTree = "<group>";
+		};
+		AD5C0F971E67A4CC00ABA70A /* DeleteEmployeeTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C0F981E67A4D800ABA70A /* DeleteEmployeeTransaction.swift */,
+			);
+			path = DeleteEmployeeTransaction;
+			sourceTree = "<group>";
+		};
+		AD5C0F9A1E67A83800ABA70A /* TimeCardTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C0F9B1E67A89100ABA70A /* TimeCard.swift */,
+				AD5C0F9D1E67A98B00ABA70A /* TimeCardTransaction.swift */,
+				ADCF57881E68EEFD00A6ED6F /* SalaryReceiptTransaction.swift */,
+				ADCF578A1E68F50400A6ED6F /* SalaryReceipt.swift */,
+				AD98B7BA1E6CE46800D29C9C /* ServiceChargeTransaction.swift */,
+				AD98B7BC1E6CE70000D29C9C /* Affiliation.swift */,
+				AD98B7BE1E6CF1C000D29C9C /* ServiceCharge.swift */,
+			);
+			path = TimeCardTransaction;
+			sourceTree = "<group>";
+		};
+		AD7D9C211E7624730027D9AB /* PaydayTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D9C221E76248A0027D9AB /* PaydayTransaction.swift */,
+				ADA3F4A41E77739500E9E075 /* Paycheck.swift */,
+			);
+			path = PaydayTransaction;
+			sourceTree = "<group>";
+		};
+		AD7D9C241E766F140027D9AB /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D9C251E766F140027D9AB /* Constants.swift */,
+				AD7D9C261E766F140027D9AB /* Date+Bundle.swift */,
+				AD7D9C271E766F140027D9AB /* Date+Comparators.swift */,
+				AD7D9C281E766F140027D9AB /* Date+Components.swift */,
+				AD7D9C291E766F140027D9AB /* Date+Format.swift */,
+				AD7D9C2A1E766F140027D9AB /* Date+Inits.swift */,
+				AD7D9C2B1E766F140027D9AB /* Date+Manipulations.swift */,
+				AD7D9C2C1E766F140027D9AB /* Date+TimeAgo.swift */,
+				AD7D9C2D1E766F140027D9AB /* DateTools.bundle */,
+				AD7D9C2E1E766F140027D9AB /* Enums.swift */,
+				AD7D9C2F1E766F140027D9AB /* Integer+DateTools.swift */,
+				AD7D9C301E766F140027D9AB /* TimeChunk.swift */,
+				AD7D9C311E766F140027D9AB /* TimePeriod.swift */,
+				AD7D9C321E766F140027D9AB /* TimePeriodChain.swift */,
+				AD7D9C331E766F140027D9AB /* TimePeriodCollection.swift */,
+				AD7D9C341E766F140027D9AB /* TimePeriodGroup.swift */,
+			);
+			name = DateTools;
+			path = ../DateTools;
+			sourceTree = "<group>";
+		};
+		ADA5E45F1E6F88930079EDE5 /* ChangeTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B01521E722DD1002B6A83 /* ChangeAffiliationTransaction */,
+				ADA5E46F1E70E36A0079EDE5 /* ChangePaymentMethodTransaction */,
+				ADA5E4641E6F8FCB0079EDE5 /* ChangeClassificationTransaction */,
+				ADA5E4601E6F89130079EDE5 /* ChangeEmpolyeeTransaction.swift */,
+				ADA5E4621E6F8AA70079EDE5 /* ChangeNameTransaction.swift */,
+				ADA5E4691E70D7910079EDE5 /* ChangeAdressTransaction.swift */,
+			);
+			path = ChangeTransaction;
+			sourceTree = "<group>";
+		};
+		ADA5E4641E6F8FCB0079EDE5 /* ChangeClassificationTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5E4651E6F8FD80079EDE5 /* ChangeClassificationTransaction.swift */,
+				ADA5E4671E6F904F0079EDE5 /* ChangeHourlyTransaction.swift */,
+				ADA5E46B1E70DC140079EDE5 /* ChangeSalaryTransaction.swift */,
+				ADA5E46D1E70DFAC0079EDE5 /* ChangeCommissonTransaction.swift */,
+			);
+			path = ChangeClassificationTransaction;
+			sourceTree = "<group>";
+		};
+		ADA5E46F1E70E36A0079EDE5 /* ChangePaymentMethodTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5E4701E70E3780079EDE5 /* ChangePaymentMethodTransaction.swift */,
+				ADA5E4721E70E49D0079EDE5 /* ChangeHoldTransaction.swift */,
+				AD5B014E1E72295D002B6A83 /* ChangeDiectTransaction.swift */,
+				AD5B01501E72298E002B6A83 /* ChangeMailTransaction.swift */,
+			);
+			path = ChangePaymentMethodTransaction;
+			sourceTree = "<group>";
+		};
+		ADDA10F81E63B4340006065A = {
+			isa = PBXGroup;
+			children = (
+				ADDA11031E63B4340006065A /* SalaryPayment */,
+				ADDA11181E63B4350006065A /* SalaryPaymentTests */,
+				ADDA11021E63B4340006065A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDA11021E63B4340006065A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA11011E63B4340006065A /* SalaryPayment.app */,
+				ADDA11151E63B4350006065A /* SalaryPaymentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDA11031E63B4340006065A /* SalaryPayment */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D9C241E766F140027D9AB /* DateTools */,
+				AD7D9C211E7624730027D9AB /* PaydayTransaction */,
+				ADA5E45F1E6F88930079EDE5 /* ChangeTransaction */,
+				AD5C0F9A1E67A83800ABA70A /* TimeCardTransaction */,
+				AD5C0F971E67A4CC00ABA70A /* DeleteEmployeeTransaction */,
+				ADF9F4B71E65099B00CA9568 /* PaymentSchedule */,
+				ADF9F4B51E65099B00CA9568 /* PaymentMethod */,
+				ADF9F4B31E65099B00CA9568 /* PaymentClassification */,
+				ADF9F4AD1E65099B00CA9568 /* Database */,
+				ADF9F4A81E65099B00CA9568 /* AddEmployee */,
+				ADF9F4AB1E65099B00CA9568 /* AppDelegate.swift */,
+				ADF9F4BA1E65099B00CA9568 /* ViewController.swift */,
+				ADF9F4B91E65099B00CA9568 /* Transaction.swift */,
+				ADF9F4AF1E65099B00CA9568 /* Employee.swift */,
+				ADF9F4B01E65099B00CA9568 /* Info.plist */,
+				ADF9F4B11E65099B00CA9568 /* LaunchScreen.storyboard */,
+				ADF9F4B21E65099B00CA9568 /* Main.storyboard */,
+				ADF9F4AC1E65099B00CA9568 /* Base.lproj */,
+			);
+			path = SalaryPayment;
+			sourceTree = "<group>";
+		};
+		ADDA11181E63B4350006065A /* SalaryPaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA11191E63B4350006065A /* SalaryPaymentTests.swift */,
+				ADDA111B1E63B4350006065A /* Info.plist */,
+			);
+			path = SalaryPaymentTests;
+			sourceTree = "<group>";
+		};
+		ADF9F4A81E65099B00CA9568 /* AddEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9F4A91E65099B00CA9568 /* AddEmployeeTransation.swift */,
+				ADF9F4AA1E65099B00CA9568 /* AddSalariedEmployee.swift */,
+				ADF9F4CA1E650BE100CA9568 /* AddHourlyEmployee.swift */,
+				ADF9F50A1E664B5800CA9568 /* AddCommissionedEmployee.swift */,
+			);
+			path = AddEmployee;
+			sourceTree = "<group>";
+		};
+		ADF9F4AC1E65099B00CA9568 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		ADF9F4AD1E65099B00CA9568 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9F4AE1E65099B00CA9568 /* PayrollDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		ADF9F4B31E65099B00CA9568 /* PaymentClassification */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9F4B41E65099B00CA9568 /* PaymentClassification.swift */,
+				ADF9F4CC1E650D2700CA9568 /* SalariedClassification.swift */,
+				ADF9F4CE1E650D4D00CA9568 /* HourlyClassification.swift */,
+				ADF9F50E1E664D5300CA9568 /* CommissionedClassification.swift */,
+			);
+			path = PaymentClassification;
+			sourceTree = "<group>";
+		};
+		ADF9F4B51E65099B00CA9568 /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9F4B61E65099B00CA9568 /* PaymentMethod.swift */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
+		ADF9F4B71E65099B00CA9568 /* PaymentSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9F4B81E65099B00CA9568 /* PaymentSchedule.swift */,
+				ADF9F4C81E650A1F00CA9568 /* MonthlySchedule.swift */,
+				ADF9F4D01E650DA700CA9568 /* WeeklySchedule.swift */,
+				ADF9F50C1E664D0700CA9568 /* BiweeklySchedule.swift */,
+			);
+			path = PaymentSchedule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADDA11001E63B4340006065A /* SalaryPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDA111E1E63B4350006065A /* Build configuration list for PBXNativeTarget "SalaryPayment" */;
+			buildPhases = (
+				ADDA10FD1E63B4340006065A /* Sources */,
+				ADDA10FE1E63B4340006065A /* Frameworks */,
+				ADDA10FF1E63B4340006065A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalaryPayment;
+			productName = SalaryPayment;
+			productReference = ADDA11011E63B4340006065A /* SalaryPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADDA11141E63B4350006065A /* SalaryPaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDA11211E63B4350006065A /* Build configuration list for PBXNativeTarget "SalaryPaymentTests" */;
+			buildPhases = (
+				ADDA11111E63B4350006065A /* Sources */,
+				ADDA11121E63B4350006065A /* Frameworks */,
+				ADDA11131E63B4350006065A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDA11171E63B4350006065A /* PBXTargetDependency */,
+			);
+			name = SalaryPaymentTests;
+			productName = SalaryPaymentTests;
+			productReference = ADDA11151E63B4350006065A /* SalaryPaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADDA10F91E63B4340006065A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Guo Zhiqiang";
+				TargetAttributes = {
+					ADDA11001E63B4340006065A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VS86A5N9W7;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					ADDA11141E63B4350006065A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VS86A5N9W7;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADDA11001E63B4340006065A;
+					};
+				};
+			};
+			buildConfigurationList = ADDA10FC1E63B4340006065A /* Build configuration list for PBXProject "SalaryPayment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADDA10F81E63B4340006065A;
+			productRefGroup = ADDA11021E63B4340006065A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADDA11001E63B4340006065A /* SalaryPayment */,
+				ADDA11141E63B4350006065A /* SalaryPaymentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADDA10FF1E63B4340006065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF9F4C21E65099B00CA9568 /* Main.storyboard in Resources */,
+				ADF9F4C01E65099B00CA9568 /* Info.plist in Resources */,
+				ADF9F4C11E65099B00CA9568 /* LaunchScreen.storyboard in Resources */,
+				AD7D9C3D1E766F140027D9AB /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDA11131E63B4350006065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADDA10FD1E63B4340006065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF9F4C71E65099B00CA9568 /* ViewController.swift in Sources */,
+				ADA5E46A1E70D7910079EDE5 /* ChangeAdressTransaction.swift in Sources */,
+				AD7D9C3E1E766F140027D9AB /* Enums.swift in Sources */,
+				AD7D9C421E766F140027D9AB /* TimePeriodChain.swift in Sources */,
+				ADA5E4681E6F904F0079EDE5 /* ChangeHourlyTransaction.swift in Sources */,
+				ADF9F4C31E65099B00CA9568 /* PaymentClassification.swift in Sources */,
+				AD7D9C431E766F140027D9AB /* TimePeriodCollection.swift in Sources */,
+				AD98B7BB1E6CE46800D29C9C /* ServiceChargeTransaction.swift in Sources */,
+				AD7D9C3C1E766F140027D9AB /* Date+TimeAgo.swift in Sources */,
+				AD7D9C411E766F140027D9AB /* TimePeriod.swift in Sources */,
+				ADCF578B1E68F50400A6ED6F /* SalaryReceipt.swift in Sources */,
+				AD5C0F991E67A4D800ABA70A /* DeleteEmployeeTransaction.swift in Sources */,
+				ADCF57891E68EEFD00A6ED6F /* SalaryReceiptTransaction.swift in Sources */,
+				ADA5E46E1E70DFAC0079EDE5 /* ChangeCommissonTransaction.swift in Sources */,
+				ADF9F50D1E664D0700CA9568 /* BiweeklySchedule.swift in Sources */,
+				AD7D9C391E766F140027D9AB /* Date+Format.swift in Sources */,
+				ADA5E4731E70E49D0079EDE5 /* ChangeHoldTransaction.swift in Sources */,
+				AD7D9C351E766F140027D9AB /* Constants.swift in Sources */,
+				AD98B7BF1E6CF1C000D29C9C /* ServiceCharge.swift in Sources */,
+				AD5B014F1E72295D002B6A83 /* ChangeDiectTransaction.swift in Sources */,
+				ADA5E46C1E70DC140079EDE5 /* ChangeSalaryTransaction.swift in Sources */,
+				AD7D9C401E766F140027D9AB /* TimeChunk.swift in Sources */,
+				ADF9F4CB1E650BE100CA9568 /* AddHourlyEmployee.swift in Sources */,
+				ADF9F50F1E664D5300CA9568 /* CommissionedClassification.swift in Sources */,
+				ADF9F4BE1E65099B00CA9568 /* PayrollDatabase.swift in Sources */,
+				AD5B01561E72303D002B6A83 /* ChangeMemberTransaction.swift in Sources */,
+				ADA5E4661E6F8FD80079EDE5 /* ChangeClassificationTransaction.swift in Sources */,
+				AD7D9C381E766F140027D9AB /* Date+Components.swift in Sources */,
+				ADF9F4BD1E65099B00CA9568 /* AppDelegate.swift in Sources */,
+				ADA5E4611E6F89130079EDE5 /* ChangeEmpolyeeTransaction.swift in Sources */,
+				ADF9F4C51E65099B00CA9568 /* PaymentSchedule.swift in Sources */,
+				AD7D9C441E766F140027D9AB /* TimePeriodGroup.swift in Sources */,
+				AD5B01541E722DD8002B6A83 /* ChangeAffiliationTransaction.swift in Sources */,
+				ADF9F4CF1E650D4D00CA9568 /* HourlyClassification.swift in Sources */,
+				AD98B7BD1E6CE70000D29C9C /* Affiliation.swift in Sources */,
+				ADF9F4C41E65099B00CA9568 /* PaymentMethod.swift in Sources */,
+				ADF9F4CD1E650D2700CA9568 /* SalariedClassification.swift in Sources */,
+				ADF9F4D11E650DA700CA9568 /* WeeklySchedule.swift in Sources */,
+				AD7D9C3A1E766F140027D9AB /* Date+Inits.swift in Sources */,
+				AD7D9C3B1E766F140027D9AB /* Date+Manipulations.swift in Sources */,
+				AD7D9C371E766F140027D9AB /* Date+Comparators.swift in Sources */,
+				ADA5E4631E6F8AA70079EDE5 /* ChangeNameTransaction.swift in Sources */,
+				ADF9F4C91E650A1F00CA9568 /* MonthlySchedule.swift in Sources */,
+				AD5B01511E72298E002B6A83 /* ChangeMailTransaction.swift in Sources */,
+				AD7D9C3F1E766F140027D9AB /* Integer+DateTools.swift in Sources */,
+				ADF9F50B1E664B5800CA9568 /* AddCommissionedEmployee.swift in Sources */,
+				AD5C0F9E1E67A98B00ABA70A /* TimeCardTransaction.swift in Sources */,
+				ADA5E4711E70E3780079EDE5 /* ChangePaymentMethodTransaction.swift in Sources */,
+				ADF9F4BC1E65099B00CA9568 /* AddSalariedEmployee.swift in Sources */,
+				ADF9F4BF1E65099B00CA9568 /* Employee.swift in Sources */,
+				ADA3F4A51E77739500E9E075 /* Paycheck.swift in Sources */,
+				AD5B01581E7231AB002B6A83 /* ChangeUnffiliatedTransaction.swift in Sources */,
+				ADF9F4BB1E65099B00CA9568 /* AddEmployeeTransation.swift in Sources */,
+				AD5C0F9C1E67A89100ABA70A /* TimeCard.swift in Sources */,
+				AD7D9C231E76248A0027D9AB /* PaydayTransaction.swift in Sources */,
+				AD7D9C361E766F140027D9AB /* Date+Bundle.swift in Sources */,
+				ADF9F4C61E65099B00CA9568 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDA11111E63B4350006065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDA111A1E63B4350006065A /* SalaryPaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADDA11171E63B4350006065A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDA11001E63B4340006065A /* SalaryPayment */;
+			targetProxy = ADDA11161E63B4350006065A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADDA111C1E63B4350006065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADDA111D1E63B4350006065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADDA111F1E63B4350006065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = SalaryPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.SalaryPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ADDA11201E63B4350006065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = SalaryPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.SalaryPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ADDA11221E63B4350006065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = SalaryPaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.SalaryPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryPayment.app/SalaryPayment";
+			};
+			name = Debug;
+		};
+		ADDA11231E63B4350006065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = SalaryPaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.SalaryPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryPayment.app/SalaryPayment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADDA10FC1E63B4340006065A /* Build configuration list for PBXProject "SalaryPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDA111C1E63B4350006065A /* Debug */,
+				ADDA111D1E63B4350006065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDA111E1E63B4350006065A /* Build configuration list for PBXNativeTarget "SalaryPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDA111F1E63B4350006065A /* Debug */,
+				ADDA11201E63B4350006065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDA11211E63B4350006065A /* Build configuration list for PBXNativeTarget "SalaryPaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDA11221E63B4350006065A /* Debug */,
+				ADDA11231E63B4350006065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADDA10F91E63B4340006065A /* Project object */;
+}
